@@ -1,0 +1,55 @@
+.container {
+  width: 330px;
+}
+
+.row div {
+  width: 25%;
+  margin: 1.5%;
+  height: 80px;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pile {
+  width: 28%;
+  margin: 1.5%;
+  height: 80px;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.disk {
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+[size="1"] {
+  width: 50px;
+  height: 20px;
+  background-color: #7aa2ff;
+}
+
+[size="2"] {
+  width: 70px;
+  height: 20px;
+  background-color: #2045bd;
+}
+
+[size="3"] {
+  width: 90px;
+  height: 20px;
+  background-color: #0026a3;
+}
